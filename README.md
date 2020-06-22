@@ -24,3 +24,11 @@
   
     1. Widget Tree:- An application built using flutter is designed using widgets. Everything is widget. 
     2. Embrace Platform Difference :- Flutter embraces the difference gracefully as iOS and an Android behave differently for how service API's are called and handled.
+    
+  + In Above repository I put some basic example of **Flutter** . 
+  1) Flutter State Management Techniques.
+  2) Flutter SQFlite
+  3) Flutter Shared Preferences
+  4) Flutter Animations.
+  
+  Above following points are important in flutter. It is easily find at YouTube also and you can follow some legends of Flutter.
