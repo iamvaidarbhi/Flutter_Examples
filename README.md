@@ -31,4 +31,6 @@
   3) Flutter Shared Preferences
   4) Flutter Animations.
   
-  Above following points are important in flutter. It is easily find at YouTube also and you can follow some legends of Flutter.
+  ## Roadmap_To_Learn_Flutter :-
+  <img src ="roadmap_2020.png" width:500>
+ 
