@@ -31,6 +31,4 @@
   3) Flutter Shared Preferences
   4) Flutter Animations.
   
-  ## Roadmap_To_Learn_Flutter :-
-  <img src ="roadmap_2020.png" width:500>
- 
+  
