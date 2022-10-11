@@ -1,16 +1,43 @@
-# shapes
+# Shapes via Clipper
 
-A new Flutter project.
+### Triangle Shape Clipper :
 
-## Getting Started
+  ``` path.addPolygon([
+      Offset(0, size.height),
+      Offset(size.width / 2, 0),
+      Offset(size.width, size.height)
+    ], true); 
+ ```   
+ 
+### Diamond or Quadrangle Shape Clipper :
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ```   path.addPolygon([
+      Offset(0, size.height / 2),
+      Offset(size.width / 2, 0),
+      Offset(size.width, size.height / 2),
+      Offset(size.width / 2, size.height)
+    ], true); 
+ ```   
+    
+### Pentagone Shape Clipper :    
+    
+   ```  path.addPolygon([
+      Offset(0, size.height * 1 / 3),
+      Offset(size.width / 2, 0),
+      Offset(size.width, size.height * 1 / 3),
+      Offset(size.width * 4 / 5, size.height),
+      Offset(size.width * 1 / 5, size.height),
+    ], true);
+   ``` 
+   
+### Hexagone Shape Clipper :       
+  
+   ``` path.addPolygon([
+      Offset(0, size.height / 2),
+      Offset(size.width * 1 / 3, size.height),
+      Offset(size.width * 2 / 3, size.height),
+      Offset(size.width, size.height / 2),
+      Offset(size.width * 2 / 3, 0),
+      Offset(size.width * 1 / 3, 0)
+    ], true);
+  ```    
